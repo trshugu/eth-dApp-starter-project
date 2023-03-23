@@ -15,6 +15,8 @@ const App = () => {
   const contractAddress = "0x8EaD75D3eCAb9F03F22B6BC77e09b1C01b906C57"
   const contractABI = abi.abi;
   
+  var contractBalance = null;
+  
   const getAllWaves = async () => {
     const { ethereum } = window;
     
